@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Landing Page</title>
+	</head>
+
+
+	<body>
+		<header>
+			<a href="#" class="logo"> <img src="img/logo.png" alt="" /> </a>
+			<div id="menu-bar" class="fas fa-bars"></div>
+			<nav class="navbar">
+				<ul>
+					<li><a class="active" href="#home">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#menu">menu</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="home" id="home">
+			<div class="content">
+				<h3>Where Every Bite is a Feathered Delight!</h3>
+				<p>
+					Welcome to Cluck 'n' Savor, where passion for poultry meets culinary perfection! Nestled in the heart of flavor town, our chicken restaurant is a haven for those seeking a feathered feast like no other.
+
+					At Cluck 'n' Savor, we believe in elevating the humble chicken to new heights, transforming each bite into a savory symphony of taste and texture. Our chefs are poultry virtuosos, crafting dishes that are a fusion of tradition and innovation. Whether you're a fan of crispy fried goodness, succulent grilled delights, or indulgent comfort food, our menu promises to delight your taste buds and leave you clucking for more.				</p>
+				<a href="#">
+					<button class="btn">get started</button>
+				</a>
+			</div>
+			<!-- image -->
+			<div class="image" >
+				<img src="img/home-img.png" alt="" />
+			</div>
+		</section>
+		<section class="about" id="about">
+			<!-- image -->
+			<div class="image" ></div>
+			<!-- content -->
+			<div class="content" >
+				<h3>a word about us</h3>
+				<p>
+					The Mercato sells dried pasta from various Italian regions, as well as
+					fresh pasta and sauces from the Centrolina kitchen. The dairy and
+					produce sections are stocked with goods from farmers and artisans
+					located in Virginia, Maryland, Pennsylvania, and New York. Italian
+					specialty items include anchovies, olives, vinegar, olive oil, salumi,
+					and sweets. Wine and craft beer is also available for sale.
+				</p>
+				<p>
+					Single guest grocery shopping is permitted for in-store purchases.
+					Pick-up and delivery is also available. Our wine list features
+					regional and international purveyors, with a focus on Italian wines
+					from up-and-coming regions. She is passionate about featuring unique
+					grape varietals on Centrolina’s menu, with most selections coming from
+					classic and modern producers.
+				</p>
+				<a href="#">
+					<button class="btn">learn more</button>
+				</a>
+			</div>
+		</section>
+		<section class="menu" id="menu">
+			<h1 class="heading">our delicious <span>menu</span></h1>
+			<!-- list -->
+			<ul class="list" >
+				<li class="btn" data-src="img/menu1.jpg">breakfast</li>
+				<li class="btn active" data-src="img/menu2.jpg">lunch</li>
+				<li class="btn" data-src="img/menu3.jpg">dinner</li>
+				<li class="btn" data-src="img/menu4.jpg">dessert</li>
+			</ul>
+
+			<!-- row -->
+			<div class="row">
+				<!-- image -->
+				<div class="image">
+					<img src="img/menu2.jpg" id="menu-img"  />
+				</div>
+				<!-- content -->
+				<div class="content" >
+					<!-- info 1 -->
+					<div class="info">
+						<h3><span>01. </span> Italian Eggs</h3>
+						<p>
+							Served with Parmesan cheese with some crusty bread on the side for
+							a perfect brunch!
+						</p>
+					</div>
+
+					<!-- info 2 -->
+					<div class="info">
+						<h3><span>02. </span> Italian Vegetable Pizzas</h3>
+						<p>
+							For these easy appetizer pizzas, pile fresh asparagus, summer
+							squash, tomato, and cheese onto purchased Italian bread shells.
+						</p>
+					</div>
+
+					<!-- info 3 -->
+					<div class="info">
+						<h3><span>03. </span> Seafood Spaghetti</h3>
+						<p>
+							The ultimate spaghetti Frutti di Mare recipe, made with baby
+							clams, mussels, squid and shrimp in a thick red Arrabiata sauce.
+						</p>
+					</div>
+
+					<!-- info 4 -->
+					<div class="info">
+						<h3><span>04. </span> Italian desserts</h3>
+						<p>
+							Italian desserts are trending right now and it’s easy to see why!
+							With tiramisu and panna cotta, cannoli and semifreddo, we’re sure
+							you can find a sweet treat that will impress the nonnas, the
+							nannas plus any of your guests.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="footer">
+			<h1 class="credit">Created by <a href="#">Ujwal Ghodeswar</a></h1>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
